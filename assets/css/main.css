@@ -915,7 +915,7 @@ section {
 .menu .tab-content .menu-item .price {
   font-size: 24px;
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--color-default);
 }
 
 /*--------------------------------------------------------------
