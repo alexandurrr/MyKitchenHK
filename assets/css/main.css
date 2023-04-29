@@ -566,9 +566,11 @@ section {
 /* Icon colors */
 .instagram-icon {
   color: #E1306C; !important;/* Sets the Instagram icon color to the original pink color */
+  font-size: 2rem;
 }
 .whatsapp-icon {
   color: #25D366 !important; /* Sets the icon color to the original WhatsApp green */
+  font-size: 2rem;
 }
 
 /*--------------------------------------------------------------
