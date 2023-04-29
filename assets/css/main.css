@@ -1327,6 +1327,10 @@ section {
   height: 100%;
 }
 
+a[href^="tel:"] {
+  text-decoration: underline;
+}
+
 .contact .info-item .icon {
   display: flex;
   align-items: center;

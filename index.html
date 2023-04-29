@@ -40,7 +40,7 @@
 <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="" width="200" style="margin-top: 30px">
+        <img src="assets/img/logo.png" alt="" width="200" style="margin-top:0px; max-height:100px; max-width: 100px">
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -51,24 +51,17 @@
                 <li><a href="#book-a-table">Booking</a></li>
                 <li><a href="#why-us">Why Us?</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li>        
-                    <a target="_blank" href="https://deliveroo.hk/en/menu/hong-kong/yau-ma-tei/my-kitchen-mong-kok-indian">
-                    <img src="assets/icons/deliveroo-icon.png" alt="deliveroo" width="26" height="26">
-                </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.openrice.com/en/hongkong/p-my-kitchen-p18735868">
-                       <img src="assets/icons/openrice-icon.png" alt="openrice" width="26" height="26">
-                    </a>
-                </li>
-                <li>
-
-                    <a target="_blank" href="https://www.foodpanda.hk/restaurant/otuy/my-kitchen">
-                        <img src="assets/icons/foodpanda-icon.png" alt="foodpanda" width="26" height="26">
-                    </a>
-                </li>
             </ul>
         </nav><!-- .navbar -->
+        <a target="_blank" href="https://deliveroo.hk/en/menu/hong-kong/yau-ma-tei/my-kitchen-mong-kok-indian">
+            <img src="assets/icons/deliveroo-icon.png" alt="deliveroo" width="26" height="26">
+        </a>
+        <a target="_blank" href="https://www.openrice.com/en/hongkong/p-my-kitchen-p18735868">
+            <img src="assets/icons/openrice-icon.png" alt="openrice" width="26" height="26">
+        </a>
+        <a target="_blank" href="https://www.foodpanda.hk/restaurant/otuy/my-kitchen">
+            <img src="assets/icons/foodpanda-icon.png" alt="foodpanda" width="26" height="26">
+        </a>
             <a href="https://wa.me/+85298459097"><i class="bi bi-whatsapp whatsapp-icon"></i></a>
             <a target="_blank" href="https://www.instagram.com/mykitchenhk/" class="instagram"><i class="bi bi-instagram instagram-icon"></i></a>
 <!--        <a class="btn-book-a-table" href="#book-a-table">Book</a> -->
@@ -542,11 +535,27 @@
             <div class="gallery-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-12.png"><img src="assets/img/gallery/gallery-12.png" class="img-fluid" alt=""></a></div>
+                    <div class="swiper-slide">
+                        <a class="glightbox" data-gallery="images-gallery" href="assets/videos/video-10.mp4">
+                            <video class="img-fluid" autoplay muted loop>
+                                <source src="assets/videos/video-10.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </a>
+                    </div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
                     <div class="swiper-slide">
                         <a class="glightbox" data-gallery="images-gallery" href="assets/videos/video-1.mp4">
                             <video class="img-fluid" autoplay muted loop>
                                 <source src="assets/videos/video-1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a class="glightbox" data-gallery="images-gallery" href="assets/videos/video-9.mp4">
+                            <video class="img-fluid" autoplay muted loop>
+                                <source src="assets/videos/video-9.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                         </a>
@@ -765,7 +774,7 @@
                         <i class="icon bi bi-telephone flex-shrink-0"></i>
                         <div>
                             <h3>Call Us</h3>
-                            <p>Phone: +852 9845 9097</p>
+                            <p>Phone: <a href="tel:+85298459097">+852 9845 9097</a></p>
                             <p>Email: troythe82@yahoo.com</p>
                         </div>
                     </div>
